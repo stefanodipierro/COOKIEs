@@ -9,23 +9,49 @@ https://academy.binance.com/en/articles/connecting-metamask-to-binance-smart-cha
 Using COOKIEs with Binance Chain Wallet
 If you would like to use Binance Chain Wallet for Chrome, you can install it here.
 
-Ticker: COOKIEs
-Contract Address:
-Chain: Binance Smart Chain (BEP-20)
+Surely you can use any other wallet of your preference which supports BEP-20 tokens (Binance Smart Chain)
+The following are few examples:
+- Ledger Nano X (Hardware Wallet)
+- Ellipal Titan (Hardware Wallet)
+- D’CENT (Hardware Wallet)
+- Math Wallet (Browser extension, Android, iOS)
+- Trust Wallet (iOS/Android)
+- Unstoppable Wallet (iOS, Android)
+- TokenPocket Wallet (iOS, Android, Desktop)
+- Coin98 Wallet (iOS, Android)
+
+How to use instructions can be found on the respective support pages.
+
+Smart Contract's main info:
+
+- Ticker: COOKIEs
+- Contract Address:
+- Chain: Binance Smart Chain (BEP-20)
 
 
 
-Roadmap
+## Roadmap
 
 We move fast and break things. We ship a lot of code very quickly, don't hold us to these.
-- COOKIEs Whitepaper Development
-- COOKIEs Whitepaper Published
-- COOKIEs Tokens Minted
-- Private Sale
-- Airdrops 10 % of circulating supply
-- 10% donation to envioremental friendly projects
-- COOKIEs Token Main Sale
+
+- COOKIEs WhitePaper Development
+- BEP-20 Smart Contract Development
+- BEP-20 Smart Contract Deployed ( smart contract is untested pre-deployment and event tested post deployment )
+- COOKIEs Landing page deployed.
+- Private sale promoted and announced via the social media, website, and through advertising.
+- COOKIEs Private pre-sale, allocated ...
+- COOKIEs airdrops program for influencer and public.
+- 10% donation to environmental friendly projects.
+- COOKIEs Crowdsale
+- Webapp Development.
+- DeFi staking starts trough Webapp.
+- COOKIEs own Wallet implementation and released for IOS/Android
 - Audit from Certik
+-
+
+- COOKIEs on Gate.io (#free listing for promising projects.)
+
+
 - PancakeSwap
 
 
@@ -35,7 +61,7 @@ We move fast and break things. We ship a lot of code very quickly, don't hold us
 Data Protocol
 
 What does protocol mean in Crypto?
-Protocols are basic sets of rules that allow data to be shared between computers. For cryptocurrencies, they establish the structure of the blockchain — the distributed database that allows digital money to be securely exchanged on the internet. ... Of course, protocols aren't exclusive to cryptocurrency.
+Protocols are basic sets of rules that allow data to be shared between computers. For cryptocurrencies, they establish the structure of the blockchain — the distributed database that allows digital money to be securely exchanged on the internet. Of course, protocols aren't exclusive to cryptocurrency.
 
 
 
@@ -107,10 +133,10 @@ This is very simple, because we would like to repeat it once more:  simplicity i
 The rewards system is a close correlation in between total supply and staking period.
 So the first element of the equation is the total supply; our smart contract foresee 4 tiers related to the total supply.
 
-Total supply < 125000000000000000000000000
-125000000000000000000000000 < Total supply < 150000000000000000000000000
-150000000000000000000000000 < Total supply < 175000000000000000000000000
-Total supply > 175000000000000000000000000
+Total supply < 125000000.000000000000000000
+125000000000000000000000000 < Total supply < 15000000.0000000000000000000
+150000000000000000000000000 < Total supply < 17500000.0000000000000000000
+Total supply > 175000000.000000000000000000
 
 Why the total supply is influencing the rewards system?
 
@@ -119,3 +145,12 @@ Because we aim to incentivize transactions and consequently the fees burning pro
 #Continue with second element: staking period.
 
 The second element of our rewards equation is time. Of course it is time!
+
+The interest coefficient, based on COOKIEs total supply is than passed to another tier, which is closely related to the period of time you decide to stake your tokens for.
+
+So far we are introducing 3 different time-related tiers: 30, 60 and 90 days.
+The reward (COOKIEs) calculated at this stage of the equation will be instantly produced, and held till the redemption date will expire.
+
+Is possible to redeem your staked COOKIEs earlier?
+
+Yes it is! COOKIEs smart contract foresee the option to early redeem your staked tokens, however the reward calculated will become equal to zero and the Cookies staked in the COOKIEsJar will be instantly released into the initial Wallet.
